@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompanyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Company.dbo.class' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="class">
+          <Property Name="Id" Type="int" />
+          <Property Name="Name" Type="varchar" MaxLength="10" />
+          <Property Name="Teachername" Type="varchar" MaxLength="10" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Company.dbo.Student' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Student">
+          <Property Name="Id" Type="int" />
+          <Property Name="Fname" Type="varchar" MaxLength="10" />
+          <Property Name="Lname" Type="varchar" MaxLength="10" />
+          <Property Name="Grade" Type="int" />
+          <Property Name="ClassId" Type="int" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Company.dbo.Subjects' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Subjects">
+          <Property Name="SubId" Type="int" />
+          <Property Name="SubName" Type="varchar" MaxLength="10" />
+        </EntityType>-->
+  <EntityContainer Name="CompanyModelStoreContainer" />
+</Schema>
